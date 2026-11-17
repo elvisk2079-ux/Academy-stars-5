@@ -6,7 +6,7 @@
 const META = { ls: "as5-u2-diary-box" };
 const P = [
   { id: "atlas", phrase: "atlas", ru: "атлас (книга с картами)", en: "a book of maps" },
-  { id: "borrow", phrase: "borrow / borrowed", ru: "одалживать, брать на время", en: "to take something and use it, then give it back later" },
+  { id: "borrow", phrase: "borrow – borrowed", ru: "одалживать, брать на время", en: "to take something and use it, then give it back later", say: "borrow, borrowed" },
   { id: "cassette", phrase: "cassette player", ru: "кассетный плеер", en: "an old machine for listening to music or recordings on cassette tapes" },
   { id: "diary", phrase: "diary", ru: "дневник", en: "a book where you write about what happens to you every day" },
   { id: "encyclopaedia", phrase: "encyclopaedia", ru: "энциклопедия", en: "a book or set of books with facts about many different subjects" },
@@ -14,10 +14,10 @@ const P = [
   { id: "hotwaterbottle", phrase: "hot water bottle", ru: "грелка", en: "a rubber container filled with hot water, used to keep warm in bed" },
   { id: "office", phrase: "office", ru: "офис, кабинет", en: "a room or building where people do business work" },
   { id: "phonebox", phrase: "phone box", ru: "телефонная будка", en: "a small structure in the street with a public telephone inside" },
-  { id: "remember", phrase: "remember / remembered", ru: "помнить, вспоминать", en: "to keep something in your memory, or to bring it back to mind" }
+  { id: "remember", phrase: "remember – remembered", ru: "помнить, вспоминать", en: "to keep something in your memory, or to bring it back to mind", say: "remember, remembered" }
 ];
 const DRILLS = [
-  { type: "meaning", title: "What does it mean?", short: "Meaning", instr: "Прочитай определение и выбери нужное слово." },
+  { type: "meaning", title: "Найди слово", short: "RU → EN", instr: "Прочитай слово по-русски и выбери, как оно будет по-английски." },
   { type: "gaps", title: "Choose the word", short: "Choose", instr: "Выбери слово, которое подходит по смыслу.",
     items: [
       { id: "atlas", t: "We looked at the map of Africa in the {{*atlas|diary|encyclopaedia}}." },

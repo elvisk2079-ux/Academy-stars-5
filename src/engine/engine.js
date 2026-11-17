@@ -191,7 +191,7 @@ const RENDER = {
     const pool = d.def.ids ? P.filter(p => d.def.ids.includes(p.id)) : P;
     shuffle(pool).forEach(p => {
       const li = el("li");
-      li.append(el("p", "q", p.en));
+      li.append(el("p", "q", p.ru));
       const lab = x => x.opt || x.phrase;
       const others = [...new Set(shuffle(pool.filter(x => x.id !== p.id)).map(lab))].filter(t => t !== lab(p)).slice(0, 3);
       const box = el("div", "mcq");

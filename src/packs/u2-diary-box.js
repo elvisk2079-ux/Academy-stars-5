@@ -60,16 +60,14 @@ const DRILLS = [
       { id: "phonebox", t: "A phone box is a small place in the street with a public phone.", ok: true },
       { id: "remember", t: "I forgot to remember my homework, so I did it on time.", ok: false, fix: "I remembered my homework, so I did it on time." }
     ] },
-  { type: "translate", title: "Say it in English", short: "Translate", instr: "Сначала скажи вслух, потом напиши по-английски.",
+  { type: "order", title: "Собери предложение", short: "Collect", instr: "Нажимай на слова по порядку и собери предложение по-английски. Печатать не нужно.",
     items: [
-      { id: "atlas", ru: "Мы посмотрели карту Африки в атласе.", en: "We looked at the map of Africa in the atlas.", key: "atlas" },
-      { id: "borrow", ru: "Можно одолжить твою ручку?", en: "Can I borrow your pen?", key: "borrow" },
-      { id: "cassette", ru: "У дедушки до сих пор есть кассетный плеер.", en: "Grandad still has a cassette player.", key: "cassette player" },
-      { id: "encyclopaedia", ru: "Я нашёл(нашла) это в энциклопедии.", en: "I found it in an encyclopaedia.", key: "encyclopaedia" },
-      { id: "freezing", ru: "Сегодня на улице очень холодно.", en: "It's freezing outside today.", key: "freezing" },
-      { id: "hotwaterbottle", ru: "Грелка помогает мне согреться ночью.", en: "A hot water bottle helps me stay warm at night.", key: "hot water bottle" },
-      { id: "office", ru: "Моя мама работает в офисе.", en: "My mum works in an office.", key: "office" },
-      { id: "phonebox", ru: "На этом углу раньше стояла телефонная будка.", en: "There used to be a phone box on this corner.", key: "phone box" },
-      { id: "remember", ru: "Не забудь принести домашнее задание.", en: "Please remember to bring your homework.", key: "remember" }
+      { id: "atlas", q: "Мы посмотрели карту Африки в атласе.", s: "We looked at the map in the atlas." },
+      { id: "borrow", q: "Можно одолжить твою ручку?", s: "Can I borrow your pen?" },
+      { id: "cassette", q: "У дедушки до сих пор есть кассетный плеер.", s: "Grandad still has a cassette player." },
+      { id: "freezing", q: "Сегодня на улице очень холодно.", s: "It's freezing outside today." },
+      { id: "hotwaterbottle", q: "Грелка помогает мне согреться.", s: "A hot water bottle helps me stay warm." },
+      { id: "office", q: "Моя мама работает в офисе.", s: "My mum works in an office." },
+      { id: "remember", q: "Не забудь принести домашнее задание.", s: "Remember to bring your homework." }
     ] }
 ];

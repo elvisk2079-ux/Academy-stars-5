@@ -59,15 +59,14 @@ const DRILLS = [
       { id: "want", t: "Daniel doesn't want to forget his homework again.", ok: true },
       { id: "tonight", t: "Daniel doesn't know the homework for tonight.", ok: true }
     ] },
-  { type: "translate", title: "Say it in English", short: "Translate", instr: "Сначала скажи вслух, потом напиши по-английски.",
+  { type: "order", title: "Собери предложение", short: "Collect", instr: "Нажимай на слова по порядку и собери предложение по-английски. Печатать не нужно.",
     items: [
-      { id: "diary", ru: "Я пишу этот дневник в своей спальне.", en: "I'm writing this diary in my bedroom.", key: "writing this diary" },
-      { id: "ice", ru: "На окне изнутри лёд!", en: "There's ice on the inside of the window!", key: "ice" },
-      { id: "blanket", ru: "У меня есть одеяло, фонарик и грелка.", en: "I've got a blanket, a torch and a hot water bottle.", key: "blanket" },
-      { id: "believe", ru: "Ты не поверишь, что сегодня случилось.", en: "You won't believe what happened today.", key: "believe" },
-      { id: "missed", ru: "Я опоздал(а) на автобус и пошёл(шла) домой пешком.", en: "I missed the bus, so I walked home.", key: "missed" },
-      { id: "usedto", ru: "Раньше я получал(а) плохие оценки.", en: "I used to get bad marks.", key: "used to" },
-      { id: "want", ru: "Я не хочу делать это снова.", en: "I don't want to do that again.", key: "want" },
-      { id: "tonight", ru: "Я не знаю домашнее задание на сегодня вечером.", en: "I don't know the homework for tonight.", key: "tonight" }
+      { id: "ice", q: "На окне лёд!", s: "There's ice on the window!" },
+      { id: "blanket", q: "У меня есть одеяло и грелка.", s: "I've got a blanket and a hot water bottle." },
+      { id: "believe", q: "Ты не поверишь!", s: "You won't believe it!" },
+      { id: "missed", q: "Я пропустил автобус.", s: "I missed the bus." },
+      { id: "usedto", q: "Раньше я получал плохие оценки.", s: "I used to get bad marks." },
+      { id: "want", q: "Я не хочу делать это снова.", s: "I don't want to do that again." },
+      { id: "tonight", q: "Я не знаю домашнее задание на сегодня вечером.", s: "I don't know the homework for tonight." }
     ] }
 ];
